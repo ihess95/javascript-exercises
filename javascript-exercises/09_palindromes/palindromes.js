@@ -1,5 +1,5 @@
 const palindromes = function (word) {
-  const noSpace = word.split(" ").join;
+  const noSpace = word.split(" ").join();
   const caps = noSpace.toLowerCase();
   const punc = caps.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "");
   const arr = punc.split("");
